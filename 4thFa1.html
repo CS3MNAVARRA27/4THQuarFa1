@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>WEBSITE</title>
+	</head>
+	<body>
+	<form>
+		<label for="name">Name:</br></label>
+		<input type="text" id="Fname" name="name" placeholder="First Name">
+		<input type="text" id="Lname" name="name" placeholder="Last Name">
+	</form>
+	<form>
+		<br> <label for="username">Username:</br></label>
+		<input type="text" id="username" name="username">
+	</form>
+	<form>
+		<br> <label for="password">Password:</br></label>
+		<input type="password" id="password" placeholder="Password">
+		<input type="password" id="confirm_password" placeholder="Confirm Password">
+	</form>
+	<form>
+		<br> <label for="email">Email:</br></label>
+		<input type="email" id="email" pattern=".+@example\.com" size="30" required />
+	</form>
+	<form>
+<br> <label for="address">Address:</br></label>
+<input type="address" id="region" placeholder="region">
+<input type="address" id="province" placeholder="province">
+<input type="address" id="city" placeholder="city">
+<input type="address" id="housenum" placeholder="house number">
+</form>
+	<form>
+		<br> <label for="comments">Comments: </label></br>
+			 <textarea id="par" name="comments" rows="4" cols="50"> </textarea>
+</form>
+	</form>
+	<form>
+		<input type = "submit" value = "Submit form">
+	</form>
+	<form>
+		<input type = "reset" value = "Reset">
+	</form>
+</body>
+</html>
+<style>
+label {
+  font-weight: bold;
+  color: #C644A0;
+  font-size: 1em;
+}
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="address"],
+input[type="par"] {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  border: 2px solid #aaa;
+  border-color: #D90B9E;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-size: 1em;
+}
+input[type="par"]{
+  padding: 30px;
+}
+input[type="submit"] {
+  background-color: #EA98D2;
+  color: white;
+  padding: 10px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+}
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+.error {
+  color: pink;
+  font-size: 0.9em;
+}
+form {
+  margin-bottom: 20px;
+}
+h1 {
+  font-size: 1em;
+  margin-bottom: 10px;
+  color: #333;
+}
+body {
+  background-image: url('mep.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+</style>
+
